@@ -8,7 +8,6 @@ struct BinanceResponse {
     price: String,
 }
 
-
 #[derive(Deserialize)]
 struct CoinGeckoResponse {
     tether: HashMap<String, f64>,
